@@ -14,6 +14,8 @@
 		3FA9E6592B4C403200258263 /* calendarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA9E6582B4C403200258263 /* calendarTests.swift */; };
 		3FA9E6632B4C403200258263 /* calendarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA9E6622B4C403200258263 /* calendarUITests.swift */; };
 		3FA9E6652B4C403200258263 /* calendarUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA9E6642B4C403200258263 /* calendarUITestsLaunchTests.swift */; };
+		3FA9E6722B59466900258263 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA9E6712B59466900258263 /* ImageView.swift */; };
+		3FA9E6742B5AAAF400258263 /* weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA9E6732B5AAAF400258263 /* weather.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		3FA9E65E2B4C403200258263 /* calendarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = calendarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FA9E6622B4C403200258263 /* calendarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calendarUITests.swift; sourceTree = "<group>"; };
 		3FA9E6642B4C403200258263 /* calendarUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calendarUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3FA9E6712B59466900258263 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		3FA9E6732B5AAAF400258263 /* weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weather.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 			children = (
 				3FA9E6472B4C403100258263 /* calendarApp.swift */,
 				3FA9E6492B4C403100258263 /* ContentView.swift */,
+				3FA9E6712B59466900258263 /* ImageView.swift */,
+				3FA9E6732B5AAAF400258263 /* weather.swift */,
 				3FA9E64B2B4C403200258263 /* Assets.xcassets */,
 				3FA9E64D2B4C403200258263 /* Preview Content */,
 			);
@@ -257,6 +263,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FA9E6742B5AAAF400258263 /* weather.swift in Sources */,
+				3FA9E6722B59466900258263 /* ImageView.swift in Sources */,
 				3FA9E64A2B4C403100258263 /* ContentView.swift in Sources */,
 				3FA9E6482B4C403100258263 /* calendarApp.swift in Sources */,
 			);

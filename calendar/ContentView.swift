@@ -17,6 +17,8 @@ struct ContentView: View {
         VStack{
             Text("\(today)")
                 .font(.system(size: 100))
+                .multilineTextAlignment(.center)
+                .lineLimit(2)
                 .padding()
             Spacer()
             Button("今天吃啥"){
@@ -36,6 +38,9 @@ struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         Group {
             ContentView()
+
         }
+
     }
 }
+
