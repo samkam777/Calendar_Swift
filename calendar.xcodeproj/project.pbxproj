@@ -16,6 +16,10 @@
 		3FA9E6652B4C403200258263 /* calendarUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA9E6642B4C403200258263 /* calendarUITestsLaunchTests.swift */; };
 		3FA9E6722B59466900258263 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA9E6712B59466900258263 /* ImageView.swift */; };
 		3FA9E6742B5AAAF400258263 /* weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA9E6732B5AAAF400258263 /* weather.swift */; };
+		3FA9E6762B5EA10E00258263 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA9E6752B5EA10E00258263 /* LoginView.swift */; };
+		3FA9E6782B5EB91300258263 /* ColorSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA9E6772B5EB91300258263 /* ColorSlider.swift */; };
+		3FA9E67B2B5EBDD500258263 /* SwiftUIDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA9E67A2B5EBDD400258263 /* SwiftUIDemo.swift */; };
+		3FA9E67D2B5FF96400258263 /* SwiftUIDemo_Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA9E67C2B5FF96400258263 /* SwiftUIDemo_Login.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,10 @@
 		3FA9E6642B4C403200258263 /* calendarUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calendarUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		3FA9E6712B59466900258263 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
 		3FA9E6732B5AAAF400258263 /* weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weather.swift; sourceTree = "<group>"; };
+		3FA9E6752B5EA10E00258263 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		3FA9E6772B5EB91300258263 /* ColorSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSlider.swift; sourceTree = "<group>"; };
+		3FA9E67A2B5EBDD400258263 /* SwiftUIDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIDemo.swift; sourceTree = "<group>"; };
+		3FA9E67C2B5FF96400258263 /* SwiftUIDemo_Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIDemo_Login.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +86,7 @@
 		3FA9E63B2B4C403100258263 = {
 			isa = PBXGroup;
 			children = (
+				3FA9E6792B5EBDBA00258263 /* SwiftDemo */,
 				3FA9E6462B4C403100258263 /* calendar */,
 				3FA9E6572B4C403200258263 /* calendarTests */,
 				3FA9E6612B4C403200258263 /* calendarUITests */,
@@ -104,6 +113,8 @@
 				3FA9E6732B5AAAF400258263 /* weather.swift */,
 				3FA9E64B2B4C403200258263 /* Assets.xcassets */,
 				3FA9E64D2B4C403200258263 /* Preview Content */,
+				3FA9E6752B5EA10E00258263 /* LoginView.swift */,
+				3FA9E6772B5EB91300258263 /* ColorSlider.swift */,
 			);
 			path = calendar;
 			sourceTree = "<group>";
@@ -131,6 +142,15 @@
 				3FA9E6642B4C403200258263 /* calendarUITestsLaunchTests.swift */,
 			);
 			path = calendarUITests;
+			sourceTree = "<group>";
+		};
+		3FA9E6792B5EBDBA00258263 /* SwiftDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3FA9E67A2B5EBDD400258263 /* SwiftUIDemo.swift */,
+				3FA9E67C2B5FF96400258263 /* SwiftUIDemo_Login.swift */,
+			);
+			path = SwiftDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,8 +285,12 @@
 			files = (
 				3FA9E6742B5AAAF400258263 /* weather.swift in Sources */,
 				3FA9E6722B59466900258263 /* ImageView.swift in Sources */,
+				3FA9E67D2B5FF96400258263 /* SwiftUIDemo_Login.swift in Sources */,
 				3FA9E64A2B4C403100258263 /* ContentView.swift in Sources */,
+				3FA9E6762B5EA10E00258263 /* LoginView.swift in Sources */,
+				3FA9E6782B5EB91300258263 /* ColorSlider.swift in Sources */,
 				3FA9E6482B4C403100258263 /* calendarApp.swift in Sources */,
+				3FA9E67B2B5EBDD500258263 /* SwiftUIDemo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
